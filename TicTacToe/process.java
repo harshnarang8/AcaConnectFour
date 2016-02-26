@@ -3,6 +3,9 @@
 // makePlay works
 // printState works
 //checkWin Works
+//heurist nd
+//minimax nd
+//nextmove nd
 // package TicTacToe;
 public class process {
   int[][] board = new int[3][3];
@@ -104,43 +107,146 @@ public class process {
 
 class AI {
 
-  public int nextMove() {
-    return 0;
+  public int[] nextMove(process p) {
+    int count = 0;
+    for(int i = 0; i < 3; i++) {
+      for(int j = 0; j < 3; j++) {
+        if (p.board[i][j] == 0)
+          count++;
+      }
+    }
+    node decisionRoot = new node(count);
+    int[] x = new int[2];
+    x[0] = 0;
+    x[1] = 0;
+    this.buildTree(p,decisionRoot,9,1);
+    this.minimax(decisionRoot,9,1);
+    for(int i = 0; i < decisionRoot.child.length; i++) {
+      if (decisionRoot.value == decisionRoot.child[i].value) {
+        x[0] = decisionRoot.child[i].memory.x[0];
+        x[1] = decisionRoot.child[i].memory.y[0];
+      }
+    }
+    return x;
   }
 
   public void buildTree(process p, node node1, int depth, int a) {
     // System.out.println(node1.value+" ");
-    if (depth != 0) {
-      int k = 0;
-        for (int i = 0; i < 3; i++) {
-          for (int j = 0; j < 3; j++) {
-            int flag = 0;
-            // check saved possible future pos
-            for (int m = 0;m < node1.memory.x.length;m++) {
-              if ( (i == node1.memory.x[m]) && j == node1.memory.y[m]) {
-                flag = 1;
-                // System.out.println("Flagged at depth "+depth);
+    String b = p.checkWin();
+    if (b == "None") {
+      if (depth != 0) {
+        int k = 0;
+          for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+              int flag = 0;
+              // check saved possible future pos
+              for (int m = 0;m < node1.memory.x.length;m++) {
+                if ( (i == node1.memory.x[m]) && j == node1.memory.y[m]) {
+                  flag = 1;
+                  // System.out.println("Flagged at depth "+depth);
+                }
+              }
+              // check saved possible future pos completed
+              // child added if the place is still empty
+              if ((p.board[i][j] == 0) && (flag!=1)) {
+                node1.addChild(i,j,a,node1);
+                if (depth == 3)
+                  // System.out.println("Voila "+i+" "+j);
+                // System.out.println("Inner Loop :"+i+" "+j);
+                buildTree(p,node1.child[k],depth-1,-1 * a);
+                k++;
               }
             }
-            // check saved possible future pos completed
-            // child added if the place is still empty
-            if ((p.board[i][j] == 0) && (flag!=1)) {
-              node1.addChild(i,j,a,node1);
-              if (depth == 3)
-                // System.out.println("Voila "+i+" "+j);
-              // System.out.println("Inner Loop :"+i+" "+j);
-              buildTree(p,node1.child[k],depth-1,-1 * a);
-              k++;
-            }
           }
-        }
+      }
+      else
+        node1.value = this.heurist(p, node1, a);
     }
-    else
-      node1.value = this.heurist(node1, a);
+    else if (b == "AI") {// If AI already won
+      if (a == 1)
+        node1.value = 10000;
+      else
+        node1.value = -10000;
+    }
+    else { // If Human already won
+      if (a == 1)
+        node1.value = -10000;
+      else
+        node1.value = 10000;
+    }
   }
 
-  public int heurist(node node1, int a) {
+  public int heurist(process p, node node1, int a) {
+    int[] pcount = new int[4];
+    int[] ncount = new int[4];
+    for(int i = 0; i < 3; i++) {
+      if (p.col[i]> 0)
+        pcount[p.col[i]]++;
+      else if (p.col[i] == 0) {
+        pcount[0]++;
+        ncount[0]++;
+      }
+      else {
+        ncount[p.col[i]]++;
+      }
+      if (p.row[i]> 0)
+        pcount[p.row[i]]++;
+      else if (p.row[i] == 0) {
+        pcount[0]++;
+        ncount[0]++;
+      }
+      else
+        ncount[p.row[i]]++;
+      if(i!=3) {
+        if (p.diag[i]> 0)
+          pcount[p.diag[i]]++;
+        else if (p.diag[i] == 0) {
+          pcount[0]++;
+          ncount[0]++;
+        }
+        else
+          ncount[p.diag[i]]++;
+      }
+    }
+    if (ncount[3] > 0) return -10000;
+    if (pcount[3] > 0) return 10000;
+    if (ncount[2] > 0) return -7500;
+    if (pcount[2] > 0) return 7500;
+    if (ncount[1] > 0) return -2000;
+    if (pcount[1] > 0) return 2000;
     return 0;
+  }
+
+  public int minimax(node node1, int depth, int a) {
+    int bestValue, v;
+    if ((depth == 0) || (this.term(node1)))
+      return node1.value;
+    if (a == 1) {
+      bestValue = 10000;
+      for (node c : node1.child) {
+        v = this.minimax(c, depth - 1, -1*a);
+        bestValue = (v > bestValue) ? v : bestValue;
+      }
+      node1.value = bestValue;
+      return bestValue;
+    }
+    else {
+      bestValue = -10000;
+      for (node c : node1.child) {
+        v = this.minimax(c, depth - 1, -1*a);
+        bestValue = (v < bestValue)? v : bestValue;
+      }
+      node1.value = bestValue;
+      return bestValue;
+    }
+  }
+
+  public boolean term(node nod) {
+    if ((nod.value ==10000)||(nod.value== -10000)) {
+      return true;
+    }
+    else
+      return false;
   }
 }
 
