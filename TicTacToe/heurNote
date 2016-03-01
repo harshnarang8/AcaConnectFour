@@ -1,0 +1,16 @@
+possible rowsum : -3a, -2a, -a, 0, a, 2a, 3a
+possible colsum : same
+possible diagsum : same
+if rowsum or colsum or diagsum = 3a then value = 10000
+if -3a value = -10000
+if two have values 2a then 7500
+if three have values 2a then 9000
+if one has value 2a then 5000
+same goes for opposite
+
+so we have pcount[4] ncount[4]
+first check ncount[3]
+then pcount[3]
+then ncount[2]
+then pcount[2]
+then 1 and 0
