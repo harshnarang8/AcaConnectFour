@@ -146,6 +146,7 @@ public class process {
     // node root = new node(9);
     // root.value = 9;
     AI atom = new AI();
+
     System.out.printf("Start the game?%n");
     Scanner user_input = new Scanner(System.in);
     int[] x = new int[2];
@@ -171,7 +172,9 @@ public class process {
     }
     System.out.println(y);
 
-    
+    // node trial = new node(2);
+    // trial.addChild();
+
     // atom.buildTree(p,root,3,1);
     // node temp;
     // for (int k = 0; k < 9 ; k++ ) {
