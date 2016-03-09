@@ -1,0 +1,2327 @@
+
+Holy Molly1111!!! 0 :
+0 0 0 
+0 -1 0 
+0 0 1 
+Value of q = 2
+
+     Holy Molly1111!!! 1 :
+     1 0 0 
+     0 -1 0 
+     0 0 1 
+     Value of q = 2
+
+          Holy Molly1111!!! 2 :
+          1 -1 0 
+          0 -1 0 
+          0 0 1 
+          Value of q = 2
+
+               Holy Molly1111!!! 3 :
+               1 -1 1 
+               0 -1 0 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    -1 -1 0 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    0 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              0 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 -1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 -1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    0 -1 0 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 0 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 0 
+                              -1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 1 
+                         -1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    0 -1 0 
+                    0 -1 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 -1 0 
+               1 -1 0 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    1 -1 0 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 0 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    1 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              0 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 -1 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    1 -1 0 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 0 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 0 
+                              -1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 1 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 0 
+                         -1 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 0 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    1 -1 0 
+                    0 -1 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 -1 0 
+               0 -1 1 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    0 -1 1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         0 -1 1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              0 -1 1 
+                              1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         0 -1 1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              0 -1 1 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    -1 -1 1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    0 -1 1 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 1 
+                         -1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    0 -1 1 
+                    0 -1 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 -1 0 
+               0 -1 0 
+               1 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    0 -1 0 
+                    1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 0 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    -1 -1 0 
+                    1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         -1 -1 0 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         -1 -1 1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 0 
+                              -1 -1 1 
+                              1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         -1 -1 0 
+                         1 1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    0 -1 -1 
+                    1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 -1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 -1 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    0 -1 0 
+                    1 -1 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 -1 0 
+               0 -1 0 
+               0 1 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    0 -1 0 
+                    0 1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 0 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 -1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   1 -1 -1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 0 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         0 -1 1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              0 -1 1 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         0 -1 0 
+                         1 1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    -1 -1 0 
+                    0 1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         -1 -1 0 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         -1 -1 1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 0 
+                              -1 -1 1 
+                              -1 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   -1 -1 1 
+                                   -1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+                         I was executed
+CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    0 -1 -1 
+                    0 1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 -1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 -1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 -1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   1 -1 -1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 0 
+                              1 -1 -1 
+                              -1 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+CallerId = 4 NextChance = -1 returnValue = 0 returnRow = 2 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         0 -1 -1 
+                         1 1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    0 -1 0 
+                    -1 1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 0 
+                         -1 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 0 
+                              -1 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   -1 -1 1 
+                                   -1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              0 -1 -1 
+                              -1 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+CallerId = 4 NextChance = -1 returnValue = 0 returnRow = 1 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 0 
+                         -1 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 0 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         0 -1 1 
+                         -1 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              0 -1 1 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+CallerId = 2 NextChance = -1 returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0 THIS HAPPENED
+          I was executed
+CallerId = 1 NextChance = 1 returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+          Holy Molly1111!!! 2 :
+          1 0 -1 
+          0 -1 0 
+          0 0 1 
+          Value of q = 2
+
+               Holy Molly1111!!! 3 :
+               1 1 -1 
+               0 -1 0 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    -1 -1 0 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 0 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 0 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    0 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 -1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 -1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    0 -1 0 
+                    -1 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 -1 
+               1 -1 0 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    1 -1 0 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 0 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    1 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         1 -1 -1 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    1 -1 0 
+                    -1 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 -1 
+               0 -1 1 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    0 -1 1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         0 -1 1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              0 -1 1 
+                              1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         0 -1 1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              0 -1 1 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    -1 -1 1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         -1 -1 1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 0 -1 
+                              -1 -1 1 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+CallerId = 4 NextChance = -1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         -1 -1 1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 0 -1 
+                              -1 -1 1 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    0 -1 1 
+                    -1 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 -1 
+               0 -1 0 
+               1 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 -1 
+                    0 -1 0 
+                    1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 -1 
+                         1 -1 0 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    -1 -1 0 
+                    1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 0 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         -1 -1 1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 0 -1 
+                              -1 -1 1 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+CallerId = 4 NextChance = -1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         -1 -1 0 
+                         1 1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    0 -1 -1 
+                    1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 -1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         1 -1 -1 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    0 -1 0 
+                    1 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 0 
+                         1 -1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 0 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 1 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              0 -1 -1 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   1 -1 -1 
+                                   1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+               I was executed
+CallerId = 2 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+          CallerId = 1 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+          Holy Molly1111!!! 2 :
+          1 0 0 
+          -1 -1 0 
+          0 0 1 
+          Value of q = 2
+
+               Holy Molly1111!!! 3 :
+               1 1 0 
+               -1 -1 0 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    -1 -1 0 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 0 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 0 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 1 0 
+                    -1 -1 -1 
+                    0 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 1 
+               -1 -1 0 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    -1 -1 0 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 1 
+                    -1 -1 -1 
+                    0 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 0 
+               -1 -1 1 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    -1 -1 1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    -1 -1 1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         -1 -1 1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         -1 -1 1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 0 -1 
+                              -1 -1 1 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+CallerId = 4 NextChance = -1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         -1 -1 1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 -1 
+                              -1 -1 1 
+                              0 1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   1 1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 0 -1 
+                              -1 -1 1 
+                              -1 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 0 0 
+                    -1 -1 1 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 0 
+                         -1 -1 1 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 1 
+                         -1 -1 1 
+                         -1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 0 
+                    -1 -1 1 
+                    0 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 0 
+                         -1 -1 1 
+                         0 -1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              0 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 1 0 
+                              -1 -1 1 
+                              -1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 1 
+                                   -1 -1 1 
+                                   -1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+CallerId = 2 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+          CallerId = 1 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+          Holy Molly1111!!! 2 :
+          1 0 0 
+          0 -1 -1 
+          0 0 1 
+          Value of q = 2
+
+               Holy Molly1111!!! 3 :
+               1 1 0 
+               0 -1 -1 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    0 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 -1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 -1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 1 0 
+                    -1 -1 -1 
+                    0 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 1 
+               0 -1 -1 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    0 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              0 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 -1 
+                         1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 -1 
+                         0 1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              -1 -1 -1 
+                              0 1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+                    I was executed
+CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                    Holy Molly1111!!! 4 :
+                    1 0 1 
+                    -1 -1 -1 
+                    0 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 0 
+               1 -1 -1 
+               0 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 0 
+                    1 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              0 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 0 
+                         1 -1 -1 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 -1 
+                    1 -1 -1 
+                    0 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         1 -1 -1 
+                         0 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 -1 
+                         1 -1 -1 
+                         1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 0 
+                    1 -1 -1 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 0 
+                         1 -1 -1 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 0 1 
+                         1 -1 -1 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 0 1 
+                              1 -1 -1 
+                              -1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 1 
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 0 
+                    1 -1 -1 
+                    0 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 0 
+                         1 -1 -1 
+                         0 -1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              0 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   1 -1 -1 
+                                   1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 1 0 
+                              1 -1 -1 
+                              -1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 1 
+                                   1 -1 -1 
+                                   -1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+                         I was executed
+CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+               I was executed
+CallerId = 2 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+          CallerId = 1 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+
+          Holy Molly1111!!! 2 :
+          1 0 0 
+          0 -1 0 
+          -1 0 1 
+          Value of q = 2
+
+               Holy Molly1111!!! 3 :
+               1 1 0 
+               0 -1 0 
+               -1 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    0 -1 0 
+                    -1 0 1 
+                    Value of q = -1
+                    Holy Molly!!!
+                    CallerId = 3 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+               CallerId = 2 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+               Holy Molly1111!!! 3 :
+               1 0 1 
+               0 -1 0 
+               -1 0 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 -1 1 
+                    0 -1 0 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         1 -1 0 
+                         -1 0 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 -1 
+                              -1 0 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 -1 1 
+                                   1 -1 -1 
+                                   -1 1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 1 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 -1 1 
+                              1 -1 0 
+                              -1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 1 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 -1 1 
+                         0 -1 1 
+                         -1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 1 
+                    -1 -1 0 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 1 
+                         -1 -1 0 
+                         -1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 1 
+                    0 -1 -1 
+                    -1 0 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 1 
+                         0 -1 -1 
+                         -1 0 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 0 1 
+                    0 -1 0 
+                    -1 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 1 
+                         0 -1 0 
+                         -1 -1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+               I was executed
+CallerId = 2 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+          CallerId = 1 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+          Holy Molly1111!!! 2 :
+          1 0 0 
+          0 -1 0 
+          0 -1 1 
+          Value of q = 2
+
+               Holy Molly1111!!! 3 :
+               1 1 0 
+               0 -1 0 
+               0 -1 1 
+               Value of q = 2
+
+                    Holy Molly1111!!! 4 :
+                    1 1 -1 
+                    0 -1 0 
+                    0 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         1 -1 0 
+                         0 -1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 -1 
+                              0 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   1 -1 -1 
+                                   1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              1 -1 0 
+                              -1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 1 
+                         0 -1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 1 
+                              0 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 2 returnCol = 0 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              0 -1 1 
+                              -1 -1 1 
+                              Value of q = -1
+                              Holy Molly!!!
+                              CallerId = 5 NextChance = 1 returnValue = -10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                         CallerId = 4 NextChance = -1 Chosen one == returnValue = -10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                         Holy Molly1111!!! 5 :
+                         1 1 -1 
+                         0 -1 0 
+                         1 -1 1 
+                         Value of q = 2
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              -1 -1 0 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   -1 -1 1 
+                                   1 -1 1 
+                                   Value of q = 0
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 0 returnRow = 3 returnCol = 3 returnOpt = 1
+CallerId = 5 NextChance = 1 returnValue = 0 returnRow = 1 returnCol = 2 returnOpt = 0 THIS HAPPENED
+
+                              Holy Molly1111!!! 6 :
+                              1 1 -1 
+                              0 -1 -1 
+                              1 -1 1 
+                              Value of q = 2
+
+                                   Holy Molly1111!!! 7 :
+                                   1 1 -1 
+                                   1 -1 -1 
+                                   1 -1 1 
+                                   Value of q = 1
+                                   Holy Molly!!!
+                                   CallerId = 6 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                              CallerId = 5 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0
+CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 1 returnCol = 0 returnOpt = 0 THIS HAPPENED
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 2 returnCol = 0 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 1 0 
+                    -1 -1 0 
+                    0 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 1 
+                         -1 -1 0 
+                         0 -1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 1 0 
+                    0 -1 -1 
+                    0 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 1 
+                         0 -1 -1 
+                         0 -1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+
+                    Holy Molly1111!!! 4 :
+                    1 1 0 
+                    0 -1 0 
+                    -1 -1 1 
+                    Value of q = 2
+
+                         Holy Molly1111!!! 5 :
+                         1 1 1 
+                         0 -1 0 
+                         -1 -1 1 
+                         Value of q = 1
+                         Holy Molly!!!
+                         CallerId = 4 NextChance = -1 returnValue = 10000 returnRow = 3 returnCol = 3 returnOpt = 1
+                    CallerId = 3 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0
+               I was executed
+CallerId = 2 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 2 returnOpt = 0 THIS HAPPENED
+          CallerId = 1 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0
+CallerId = 0 NextChance = -1 returnValue = 10000 returnRow = 0 returnCol = 1 returnOpt = 0 THIS HAPPENED
+CallerId = -1 NextChance = 1 Chosen one == returnValue = 10000 returnRow = 0 returnCol = 0 returnOpt = 0
