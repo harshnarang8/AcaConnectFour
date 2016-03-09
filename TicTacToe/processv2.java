@@ -1,47 +1,24 @@
 // TicTactoe v1.01
-//initialization works
-// makePlay works
-// printState works
-//checkWin Works
-//heurist nd
-//minimax nd
-//nextmove nd
-// package TicTacToe;
 import java.util.*;
 public class processv2 {
   int[][] board = new int[3][3];
-  int[] row = new int[3];
-  int[] col = new int[3];
-  int[] diag = new int[2];
+  int[] marks = new int[8]; // 0 - 2 rows 3 - 5 cols 6 - 7 diagonals
 
   processv2() {
-    for(int i = 0; i < 3; i++) {
-      for(int j = 0; j < 3; j++) {
+    for(int i = 0; i < 3; i++)
+      for(int j = 0; j < 3; j++)
         this.board[i][j] = 0;
-      }
-      this.row[i] = 0;
-      this.col[i] = 0;
-    }
-    this.diag[0] = 0;
-    this.diag[1] = 0;
   }
 
-  public String makePlay(String player, int x, int y) {
+  public String makePlay(int player, int x, int y) {
     if (this.board[x][y] != 0)
       return "Wrong";
-    int a = 0;
-    if (player == "AI")
-      a = 1;
-    else if (player == "Human")
-      a = -1;
-    this.board[x][y] = a;
-    this.col[y] += a;
-    this.row[x] += a;
-    if (x == y)
-      this.diag[0] += a;
-    if (x + y == 2)
-      this.diag[1] += a;
+    this.board[x][y] = player;
     return ("Next Move");
+  }
+
+  public void deletePlay(int player, int x, int y) {
+  this.board[x][y] = 0;
   }
 
   public void printState() {
@@ -52,24 +29,33 @@ public class processv2 {
       System.out.println();
     }
   }
-  public String checkWin() {
-    for (int m : this.row) {
-            if (m == 3)
-                return "AI";
-            else if (m == -3)
-                return "Human";
+
+  public void printStateTab(int depth) {
+    for(int i = 0; i < 3; i++) {
+      for(int k = 0; k < depth; k++) {
+        System.out.printf("     ");
+      }
+      for(int j = 0; j < 3; j++) {
+        System.out.printf(this.board[i][j] + " ");
+      }
+      System.out.println();
     }
-    for (int m : this.col) {
-            if (m == 3)
-                return "AI";
-            else if (m == -3)
-                return "Human";
-    }
-    for (int m : this.diag) {
-            if (m == 3)
-                return "AI";
-            else if (m == -3)
-                return "Human";
+  }
+
+  public int checkWin() {
+    for(int i = 0; i < 3; i++) {
+      int sumrow = 0, sumcol = 0;
+      int[] sumdiag = new int[2];
+      sumdiag[0] = 0;
+      sumdiag[1] = 0;
+      for(int j = 0; j < 3; j++) {
+        sumrow = sumrow + this.board[i][j];
+        sumcol = sumcol + this.board[j][i];
+        sumdiag[0] = sumdiag[0] + this.board[j][j];
+        sumdiag[1] = sumdiag[1] + this.board[j][2-j];
+      }
+      if (sumrow == 3 || sumcol == 3 || sumdiag[0]==3||sumdiag[1]==3) return 1;
+      if (sumrow == -3|| sumcol == -3||sumdiag[0]==-3||sumdiag[1]==-3)return -1;
     }
     int flag = 0;
     for(int i = 0; i < 3; i++) {
@@ -78,319 +64,235 @@ public class processv2 {
           flag = 1;
       }
     }
-    if (flag == 0) return "Tied";
-    return "None";
+    if (flag == 0) return 0;
+    return 2;
   }
 
   public static void main(String[] args) {
     processv2 p = new processv2();
+    processv2 p1 = new processv2();
+    processv2 p2 = new processv2();
+    processv2 p3 = new processv2();
+    processv2 p4 = new processv2();
     AI atom = new AI();
-    int a1 = 1;
-    int a2 = 1;
-    if (a2 == 0) {
-      p.makePlay("AI",1,1);
-      p.makePlay("Human",2,2);
-      List<int[]> t_ = atom.generateMoves(p,1);
-      for (int[] m : t_) {
+    int a = 1;
+    if (args.length > 0)
+      a = Integer.parseInt(args[0]);
+    if (a == 0) {
+      p4.makePlay(-1,0,0);
+      p4.makePlay(1,0,1);
+      p4.makePlay(-1,0,2);
+      p4.makePlay(1,1,0);
+      p4.makePlay(-1,1,1);
+      p4.makePlay(1,1,2);
+      p4.makePlay(-1,2,0);
+      // p.makePlay(-1,1,2);
+      // p.makePlay(1,1,0);
+      // List<int[]> t_ = atom.generateMoves(p,-1);
+      // for (int[] m : t_) {
+      //   System.out.println(m[0]+" "+m[1]);
+      // }
+      p4.printState();
+      System.out.println("Win Check : "+p4.checkWin());
+      System.out.printf("Test%n");
+
+      p1.makePlay(-1,1,1);
+      p1.makePlay(1,2,1);
+      p1.printState();
+      System.out.println();
+      p1.deletePlay(1,2,1);
+      p1.printState();
+      p1.makePlay(-1,0,1);
+      p1.printState();
+      System.out.println("Win Check : "+p1.checkWin()+" ");
+
+      p2.makePlay(-1,0,2);
+      p2.makePlay(-1,0,1);
+      p2.makePlay(-1,0,0);
+      p2.printState();
+      System.out.println("Win Check : "+p2.checkWin()+" ");
+
+      p3.makePlay(-1,1,1);
+      p3.makePlay(-1,2,0);
+      // p3.makePlay(1,0,2);
+      p3.printState();
+      System.out.println("Win check : "+p3.checkWin()+" ");
+      System.out.println("Possible moves :");
+      List<int[]> t = atom.generateMoves(p3,1);
+      for (int[] m : t)
         System.out.println(m[0]+" "+m[1]);
-      }
-      p.printState();
     }
-    if (a1 == 1) {
+    else if (a == 1) {
       System.out.printf("Start the game?%n");
       Scanner user_input = new Scanner(System.in);
       int[] x = new int[3];
-      String y;
+      int y;
+      String w;
       while(true) {
-        // x = atom.nextMove(p);
-        // System.out.println(x[0]+" "+x[1]+" "+x[2]);
-        // p.makePlay("AI",x[1],x[2]);
-        // p.printState();
-        // y = p.checkWin();
-        // if (y != "None") break;
 
-        x[0] = (int)user_input.nextInt();
-        x[1] = (int)user_input.nextInt();
+        x = atom.minimax(p,1,0,-1);
+        System.out.println(x[0]+" "+x[1]+" "+x[2]);
+        p.makePlay(1,x[1],x[2]);
+        p.printState();
+        y = p.checkWin();
+        if (y != 2) break;
 
         int t = 0;
         do {
-          y = p.makePlay("Human",x[0],x[1]);
-          System.out.println(y + " "+t);
+          x[0] = (int)user_input.nextInt();
+          x[1] = (int)user_input.nextInt();
+          w = p.makePlay(-1,x[0],x[1]);
+          System.out.println(w + " "+t);
           t++;
-        } while(y == "Wrong");
+        } while(w == "Wrong");
 
         p.printState();
         y = p.checkWin();
-        if (y != "None") break;
+        if (y != 2) break;
 
-        x = atom.nextMove(p);
-        System.out.println(x[0]+" "+x[1]+" "+x[2]);
-        p.makePlay("AI",x[1],x[2]);
-        p.printState();
-        y = p.checkWin();
-        if (y != "None") break;
+        // x = atom.minimax(p,1,0,-1);
+        // System.out.println(x[0]+" "+x[1]+" "+x[2]);
+        // p.makePlay(1,x[1],x[2]);
+        // p.printState();
+        // y = p.checkWin();
+        // if (y != 2) break;
 
       }
-      System.out.println(y);
+      System.out.println(y+" ");
+    }
+    else if (a == 2) {
+      p1.makePlay(1,2,2);
+      p1.makePlay(-1,1,1);
+      // p1.makePlay(1,1,2);
+      // p1.makePlay(-1,0,2);
+      // p1.makePlay(1,0,0);
+      // p1.makePlay(-1,0,1);
+      // p1.makePlay(1,2,0);
+      int[] x;
+      x = atom.minimax(p1,1,0,-1);
     }
   }
 }
 
 class AI {
 
-  public int[] nextMove(processv2 p) {
-    int[] x = new int[3];
-    x = this.minimax(p,9,1);
-    return x;
-  }
-
-  public int heurist(processv2 p) {
-    int[] score = new int[8];
-    // if colsum = 3 for any column then score for that column = 10000
-    // if colsum = 2 for any column then score for that column = 1000
-    // if colsum = 1 for any cloumn then score for that column = 100 if no -
-    // - entry has -1
-    // else 0
-    // same for rows and diagonals
-    for(int i = 0; i < 3; i++) {
-      switch (p.col[i]) {
-        case 3:
-          score[i] = 10000;
-          break;
-        case 2:
-          score[i] = 1000;
-          break;
-        case 1:
-          score[i] = 100;
-          for (int k = 0; k < 2; k++) {
-            if (p.board[k][i] == -1)
-              score[i] = 0;
-          }
-          break;
-        case 0:
-          score[i] = 0;
-          break;
-        case -1:
-          score[i] = -100;
-          for (int k = 0; k < 2; k++) {
-            if (p.board[k][i] == 1)
-              score[i] = 0;
-          }
-          break;
-        case -2:
-          score[i] = -1000;
-          break;
-        case -3:
-          score[i] = -10000;
-          break;
-      }
-      switch (p.row[i]) {
-        case 3:
-          score[3 + i] = 10000;
-          break;
-        case 2:
-          score[3 + i] = 1000;
-          break;
-        case 1:
-          score[3 + i] = 100;
-          for (int k = 0; k < 2; k++) {
-            if (p.board[k][i] == -1)
-              score[3 + i] = 0;
-          }
-          break;
-        case 0:
-          score[3 + i] = 0;
-          break;
-        case -1:
-          score[3 + i] = -100;
-          for (int k = 0; k < 2; k++) {
-            if (p.board[k][i] == 1)
-              score[3 + i] = 0;
-          }
-          break;
-        case -2:
-          score[3 + i] = -1000;
-          break;
-        case -3:
-          score[3 + i] = -10000;
-          break;
-      }
-      if ( i < 2 ) {
-        switch (p.diag[i]) {
-          case 3:
-            score[6 + i] = 10000;
-            break;
-          case 2:
-            score[6 + i] = 1000;
-            break;
-          case 1:
-            score[6 + i] = 100;
-            for (int k = 0; k < 2; k++) {
-              if (p.board[k][k] == -1)
-                score[6 + i] = 0;
-            }
-            break;
-          case 0:
-            score[6 + i] = 0;
-            break;
-          case -1:
-            score[6 + i] = -100;
-            for (int k = 0; k < 2; k++) {
-              if (p.board[k][2-k] == 1)
-                score[6 + i] = 0;
-            }
-            break;
-          case -2:
-            score[6 + i] = -1000;
-            break;
-          case -3:
-            score[6 + i] = -10000;
-            break;
-        }
-
-      }//if
-    }//for
-    int r = 0;
-    for (int m : score) {
-      r = m + r;
-    }
-    return r;
-  }
-
-//
-//internet ver
-private int evaluate(processv2 p,int a) {
-      int score = 0;
-      // Evaluate score for each of the 8 lines (3 rows, 3 columns, 2 diagonals)
-      score += evaluateLine(p, 0, 0, 0, 1, 0, 2);  // row 0
-      score += evaluateLine(p, 1, 0, 1, 1, 1, 2);  // row 1
-      score += evaluateLine(p, 2, 0, 2, 1, 2, 2);  // row 2
-      score += evaluateLine(p, 0, 0, 1, 0, 2, 0);  // col 0
-      score += evaluateLine(p, 0, 1, 1, 1, 2, 1);  // col 1
-      score += evaluateLine(p, 0, 2, 1, 2, 2, 2);  // col 2
-      score += evaluateLine(p, 0, 0, 1, 1, 2, 2);  // diagonal
-      score += evaluateLine(p, 0, 2, 1, 1, 2, 0);  // alternate diagonal
-      return score;
-   }
-
-   /** The heuristic evaluation function for the given line of 3 p.board
-       @Return +100, +10, +1 for 3-, 2-, 1-in-a-line for computer.
-               -100, -10, -1 for 3-, 2-, 1-in-a-line for opponent.
-               0 otherwise */
-   private int evaluateLine(processv2 p,int row1, int col1, int row2, int col2, int row3, int col3) {
-      int score = 0;
-
-      // First cell
-      if (p.board[row1][col1] == 1) {
-         score = 1;
-      } else if (p.board[row1][col1] == -1) {
-         score = -1;
-      }
-
-      // Second cell
-      if (p.board[row2][col2] == 1) {
-         if (score == 1) {   // cell1 is 1
-            score = 10;
-         } else if (score == -1) {  // cell1 is -1
-            return 0;
-         } else {  // cell1 is empty
-            score = 1;
-         }
-      } else if (p.board[row2][col2] == -1) {
-         if (score == -1) { // cell1 is -1
-            score = -10;
-         } else if (score == 1) { // cell1 is 1
-            return 0;
-         } else {  // cell1 is empty
-            score = -1;
-         }
-      }
-
-      // Third cell
-      if (p.board[row3][col3] == 1) {
-         if (score > 0) {  // cell1 and/or cell2 is 1
-            score *= 10;
-         } else if (score < 0) {  // cell1 and/or cell2 is -1
-            return 0;
-         } else {  // cell1 and cell2 are empty
-            score = 1;
-         }
-      } else if (p.board[row3][col3] == -1) {
-         if (score < 0) {  // cell1 and/or cell2 is -1
-            score *= 10;
-         } else if (score > 0) {  // cell1 and/or cell2 is 1
-            return 0;
-         } else {  // cell1 and cell2 are empty
-            score = -1;
-         }
-      }
-      return score;
-   }
-   //
-   //
-   //
-
-
-  public int[] minimax(processv2 p, int depth, int a) {
-    int bestValue, v, myRow, myCol;
-    bestValue = 0;
-    myRow = 3;
-    myCol = 3;
+  public int[] minimax(processv2 p, int a, int depth, int CallerId) {
+    int bestValue = 0, myRow = 3, myCol = 3;
+    int[] v;
     List<int[]> nextMoves = generateMoves(p,a);
-    // I add new moves to the board for each depth, then undo it so tree
-    // not required
-    if ((depth == 0) || nextMoves.isEmpty()) {
-      bestValue = evaluate(p,a);
+    // System.out.println();
+    //
+    // for(int i = 0; i < depth; i++) {
+    //   System.out.printf("     ");
+    // }
+    // System.out.println("Holy Molly1111!!! " + (++CallerId)+" :");
+    // // //
+    // p.printStateTab(depth);
+    int q = p.checkWin();
+    //
+    // for(int i = 0; i < depth; i++) {
+    //   System.out.printf("     ");
+    // }
+    // System.out.println("Value of q = "+q);
+    //
+
+    if (q != 2) {
+      // for(int i = 0; i < depth; i++) {
+      //   System.out.printf("     ");
+      // }
+      // System.out.println("Holy Molly!!!");
+      // for(int i = 0; i < depth; i++) {
+      //   System.out.printf("     ");
+      // }
+      // System.out.println("CallerId = "+(CallerId-1)+" NextChance = "+a+" returnValue = "+(q*10000)+" returnRow = "+myRow+" returnCol = "+myCol+" returnOpt = 1");
+      return new int[] {q*10000,3,3,1};
     }
+
+    int flag = 0;
     for (int[] move : nextMoves) {
-      p.board[move[0]][move[1]] = a;
-      // p.printState();
-      // System.out.println();
-      if (a == 1) {
+      p.makePlay(a,move[0],move[1]);
+      if (a == 1) {// maximizing player
         bestValue = -10000;
-        v = this.minimax(p, depth - 1, -1*a)[0];
-        if ( v > bestValue) {
-        bestValue = v;
+        v = this.minimax(p,-1*a,depth + 1, CallerId);// point where it goes deeper
+        if(v[0] == 10000 && v[1] == 3 && v[3] == 1) {
+          // for(int i = 0; i < depth; i++) {
+          //   System.out.printf("     ");
+          // }
+          // System.out.println("CallerId = "+(CallerId-1)+" NextChance = "+a+" Chosen one == returnValue = "+10000+" returnRow = "+move[0]+" returnCol = "+move[1]+" returnOpt = 0");
+          p.deletePlay(a,move[0],move[1]);
+          return new int[] {10000,move[0],move[1],0};
+        }
+        if ( v[0] == 0) {
+        bestValue = v[0];
         myRow = move[0];
         myCol = move[1];
+        // if (CallerId == 0)
+        //   System.out.println("Damn it");
+        flag = 1;
+        }
+        else if (v[0] == 10000) {
+            // for(int i = 0; i < depth; i++) {
+            //   System.out.printf("     ");
+            // }
+            // System.out.println("CallerId = "+(CallerId-1)+" NextChance = "+a+" Chosen one == returnValue = "+10000+" returnRow = "+move[0]+" returnCol = "+move[1]+" returnOpt = 0");
+            p.deletePlay(a,move[0],move[1]);
+            return new int[] {10000,move[0],move[1],0};
         }
       }
-      else {
+      else {// minimizing player
         bestValue = 10000;
-        v = this.minimax(p, depth - 1, -1*a)[0];
-        if ( v < bestValue) {
-        bestValue = v;
+        v = this.minimax(p,-1*a, depth + 1,CallerId);//point where it goes deeper
+        if(v[0] == -10000 && v[1] == 3 && v[3] == 1) {
+          // for(int i = 0; i < depth; i++) {
+          //   System.out.printf("     ");
+          // }
+          // System.out.println("CallerId = "+(CallerId-1)+" NextChance = "+a+" Chosen one == returnValue = "+(-10000)+" returnRow = "+move[0]+" returnCol = "+move[1]+" returnOpt = 0");
+          p.deletePlay(a,move[0],move[1]);
+          return new int[] {-10000,move[0],move[1],0};
+        }
+        if ( v[0] == 0) {
+        bestValue = v[0];
         myRow = move[0];
         myCol = move[1];
+        // if (CallerId == 0)
+        //   System.out.println("Damn it");
+        flag = 1;
+        }
+        else if (v[0] == -10000) {
+            // for(int i = 0; i < depth; i++) {
+            //   System.out.printf("     ");
+            // }
+            // System.out.println("CallerId = "+(CallerId-1)+" NextChance = "+a+" Chosen one == returnValue = "+10000+" returnRow = "+move[0]+" returnCol = "+move[1]+" returnOpt = 0");
+            p.deletePlay(a,move[0],move[1]);
+            return new int[] {-10000,move[0],move[1],0};
         }
       }
-      p.board[move[0]][move[1]] = 0;
+      p.deletePlay(a,move[0],move[1]);
     }
-    return new int[] {bestValue,myRow,myCol};
+    if ( myRow == 3) {
+      // for(int i = 0; i < depth; i++) {
+      //   System.out.printf("     ");
+      // }
+      // System.out.println("I was executed");
+      int[] temp = nextMoves.get(0);
+      myRow = temp[0];
+      myCol = temp[1];
+    }
+    // System.out.println("CallerId = "+(CallerId-1)+" NextChance = "+a+" returnValue = "+bestValue+" returnRow = "+myRow+" returnCol = "+myCol+" returnOpt = 0 THIS HAPPENED");
+    return new int[] {bestValue,myRow,myCol,0};
   }
 
   public List<int[]> generateMoves(processv2 p,int a) {
     List<int[]> temp = new ArrayList<int[]>();
-    String m = p.checkWin();
-    if (m == "AI" || m == "Human" || m == "Tied") {
+    int m = p.checkWin();
+    if (m == 1 || m == -1 || m == 0)
       return temp;
-    }
     else {
-      for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++) {
-          if (p.board[i][j] == 0) {
+      for (int i = 0; i < 3; i++)
+        for (int j = 0; j < 3; j++)
+          if (p.board[i][j] == 0)
             temp.add(new int[] {i,j});
-            p.board[i][j] = a;
-            m = p.checkWin();
-            p.board[i][j] = 0;
-            if (m == "AI" || m == "Human" || m == "Tied") {
-              return temp;
-            }
-          }
-        }
-      }
     }
     return temp;
   }
-
 }
