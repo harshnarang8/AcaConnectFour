@@ -73,7 +73,7 @@ public class myInterface {
           break;
         }
 
-        playerMove = atom.minimax(game,1,7);
+        playerMove = (atom.minimax(game,1,7))[2];
         game.makePlay(player2,playerMove);
         game.printState();
         situation = game.checkWin();

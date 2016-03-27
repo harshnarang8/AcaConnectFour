@@ -10,6 +10,7 @@ public class gamePlay {
 	}
 
 	void printState() {
+		System.out.println();
 		for(int i = 0; i < 6; i++) {
 			System.out.printf("| ");
 			for(int j = 0; j < 7; j++ )
@@ -40,15 +41,11 @@ public class gamePlay {
 
 	int deletePlay(int move) {
 		int i;
-		for(i = 0; i < 6; i++)
+		for(i = 0; i < 6; i++) {
 			if (this.board[i][move] != 0)
 				break;
-		i--;
-		if (i == -1)
-			return -1;
-
-		else
-			this.board[i][move] = 0;
+		}
+		this.board[i][move] = 0;
 		return 0;
 	}
 
@@ -64,6 +61,14 @@ public class gamePlay {
 		game.printState();
 		game.samplePlay();
 		// game.makePlay(-1,6);
+		System.out.println();
+		game.printState();
+		System.out.println(game.deletePlay(3)+" ");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		game.printState();
+		atom.minimax(game,1,7);
 		System.out.println();
 		game.printState();
 		List<int[]> temp;

@@ -9,12 +9,13 @@ public class AI {
     // the returning array is a score, the current player, and his best move
     int bestValue = 0, playerNextMove = 7;
     int[] v;
+    // nextMoves contains  the list of moves possible
     List<int[]> nextMoves = this.generateMoves(game);
     int q = game.checkWin();
 
     if (q != 2)// this should be returned if no further moves possible
       return new int[] {q*100000,player,-1};
-    // q*10000 refers to the current win loss or tie situation
+    // q*100000 refers to the current win loss or tie situation
     // -1 refers to no playing move possible in the current situation
 
     //if depth is 0, we check the possible gameState
@@ -33,6 +34,8 @@ public class AI {
       // bestValue is the highest possible value initially
       // if we get a lower value later we change bestValue to that
 
+    // this is the for loop which loops over the current possible moves
+    // the possible moves function is correct
     for (int move[] : nextMoves) {
       game.makePlay(player,move[0]);
 

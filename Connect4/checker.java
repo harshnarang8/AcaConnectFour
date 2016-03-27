@@ -39,7 +39,14 @@ public class checker {
   }
 
   int checkLeft(int x, int y, int[][] gameState, int flag) {
-
+    try {
+      while(gameState[x][y] == gameState[x+1][y]) {
+        x++;
+      }
+    }
+    catch(IndexOutOfBoundsException e) {
+      x = x + 0;
+    }
     int sum = 0;
 			for(int i = 0; i < 4; i++) {
 				try {
@@ -60,6 +67,14 @@ public class checker {
 
 	int checkRight(int x, int y, int[][] gameState, int flag) {
 		int sum = 0;
+    try {
+      while(gameState[x][y] == gameState[x-1][y]) {
+        x--;
+      }
+    }
+    catch(IndexOutOfBoundsException e) {
+      x = x + 0;
+    }
 			for(int i = 0; i < 4; i++) {
 				try {
 					sum = sum + gameState[x+i][y];
@@ -96,6 +111,15 @@ public class checker {
 
 	int checkRightBelow(int x, int y, int[][] gameState, int flag) {
 		int sum = 0;
+    try {
+      while(gameState[x][y] == gameState[x-1][y-1]) {
+        x--;
+        y--;
+      }
+    }
+    catch(IndexOutOfBoundsException e) {
+      x = x + 0;
+    }
 			for(int i = 0; i < 4; i++) {
 				try {
 					sum = sum + gameState[x+i][y+i];
@@ -114,6 +138,15 @@ public class checker {
 
 	int checkLeftBelow(int x, int y, int[][] gameState, int flag) {
 		int sum = 0;
+    try {
+      while(gameState[x][y] == gameState[x+1][y-1]) {
+        x++;
+        y--;
+      }
+    }
+    catch(IndexOutOfBoundsException e) {
+      x = x + 0;
+    }
 			for(int i = 0; i < 4; i++) {
 				try {
 					sum = sum + gameState[x-i][y+i];
