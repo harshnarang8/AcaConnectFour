@@ -30,7 +30,7 @@ public class myEvaluator {
   int scale(int val) {
     switch (val) {
       case 4 :
-        return 10000;
+        return 100000;
       case 3 :
         return 7500;
       case 2 :
@@ -46,7 +46,7 @@ public class myEvaluator {
       case -3 :
         return -7500;
       case -4 :
-        return -10000;
+        return -100000;
     }
     return 0;
   }

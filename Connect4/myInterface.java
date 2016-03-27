@@ -56,7 +56,35 @@ public class myInterface {
       }
     else if (x == 1)
       while(true) {
-        break;
+        // Human vs Human
+        int player1 = 1, player2 = -1;
+        int playerMove, situation;
+
+        playerMove = (int)user_input.nextInt();
+        game.makePlay(player1,playerMove);
+        game.printState();
+        situation = game.checkWin();
+        if (situation == 1) {
+          System.out.println("Player1 wins.");
+          break;
+        }
+        else if (situation == 0) {
+          System.out.println("It is a tie.");
+          break;
+        }
+
+        playerMove = atom.minimax(game,1,7);
+        game.makePlay(player2,playerMove);
+        game.printState();
+        situation = game.checkWin();
+        if (situation == -1) {
+          System.out.println("Atom wins.");
+          break;
+        }
+        else if (situation == 0) {
+          System.out.println("It is a tie.");
+          break;
+        }
       }
   }
 }
