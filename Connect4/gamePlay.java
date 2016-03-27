@@ -58,41 +58,18 @@ public class gamePlay {
 		gamePlay game = new gamePlay();
 		AI atom = new AI();
 		System.out.printf("x corresponds to 1%no corresponds to -1%n");
-		game.printState();
 		game.samplePlay();
-		// game.makePlay(-1,6);
-		System.out.println();
 		game.printState();
-		System.out.println(game.deletePlay(3)+" ");
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		game.printState();
-		atom.minimax(game,1,7);
-		System.out.println();
-		game.printState();
-		List<int[]> temp;
-		temp = atom.generateMoves(game);
-		for(int[] m : temp)
-			System.out.println(m[0]+"	");
 		System.out.println(game.checkWin()+" ");
-		myEvaluator temp2 = new myEvaluator();
-		System.out.println(" " + temp2.tellMe(game) + " ");
 	}
 
 	void samplePlay() {
-		this.makePlay(1,0);
+		this.makePlay(-1,0);
+		this.makePlay(1,4);
 		this.makePlay(-1,1);
-		this.makePlay(1,6);
-		this.makePlay(-1,3);
 		this.makePlay(1,5);
 		this.makePlay(-1,2);
-		this.makePlay(1,4);
-		this.makePlay(-1,4);
-		this.makePlay(1,6);
-		this.makePlay(-1,6);
-		this.makePlay(1,5);
-		this.makePlay(-1,5);
-		this.makePlay(1,3);
+		this.makePlay(1,0);
+		this.makePlay(-1,3);
 	}
 }

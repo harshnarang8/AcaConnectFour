@@ -56,15 +56,16 @@ public class myInterface {
       }
     else if (x == 1)
       while(true) {
-        // Human vs Human
-        int player1 = 1, player2 = -1;
+        // Human vs Atom
+        int player1 = -1, player2 = 1;
         int playerMove, situation;
 
         playerMove = (int)user_input.nextInt();
         game.makePlay(player1,playerMove);
         game.printState();
         situation = game.checkWin();
-        if (situation == 1) {
+        System.out.println(situation+" is value of situation.");
+        if (situation == -1) {
           System.out.println("Player1 wins.");
           break;
         }
@@ -77,7 +78,7 @@ public class myInterface {
         game.makePlay(player2,playerMove);
         game.printState();
         situation = game.checkWin();
-        if (situation == -1) {
+        if (situation == 1) {
           System.out.println("Atom wins.");
           break;
         }

@@ -40,8 +40,8 @@ public class checker {
 
   int checkLeft(int x, int y, int[][] gameState, int flag) {
     try {
-      while(gameState[x][y] == gameState[x+1][y]) {
-        x++;
+      while(gameState[x][y] == gameState[x][y+1]) {
+        y++;
       }
     }
     catch(IndexOutOfBoundsException e) {
@@ -50,13 +50,14 @@ public class checker {
     int sum = 0;
 			for(int i = 0; i < 4; i++) {
 				try {
-					sum = sum + gameState[x-i][y];
+					sum = sum + gameState[x][y-i];
+          // System.out.println(gameState[x-i][y]+"!");
 				}
 				catch(IndexOutOfBoundsException e) {
 					sum = sum + 0;
 				}
 			}
-
+      // System.out.println("y :"+y+" sum : "+sum);
 			if (sum == 4 || sum == -4)
         if (flag == 0)
           return (sum/4);
@@ -68,8 +69,8 @@ public class checker {
 	int checkRight(int x, int y, int[][] gameState, int flag) {
 		int sum = 0;
     try {
-      while(gameState[x][y] == gameState[x-1][y]) {
-        x--;
+      while(gameState[x][y] == gameState[x][y-1]) {
+        y--;
       }
     }
     catch(IndexOutOfBoundsException e) {
@@ -77,7 +78,7 @@ public class checker {
     }
 			for(int i = 0; i < 4; i++) {
 				try {
-					sum = sum + gameState[x+i][y];
+					sum = sum + gameState[x][y+i];
 				}
 				catch(IndexOutOfBoundsException e) {
 					sum = sum + 0;
@@ -95,7 +96,7 @@ public class checker {
 		int sum = 0;
 			for(int i = 0; i < 4; i++) {
 				try {
-					sum = sum + gameState[x][y+i];
+					sum = sum + gameState[x+i][y];
 				}
 				catch(IndexOutOfBoundsException e) {
 					sum = sum + 0;
@@ -139,9 +140,9 @@ public class checker {
 	int checkLeftBelow(int x, int y, int[][] gameState, int flag) {
 		int sum = 0;
     try {
-      while(gameState[x][y] == gameState[x+1][y-1]) {
-        x++;
-        y--;
+      while(gameState[x][y] == gameState[x-1][y+1]) {
+        y++;
+        x--;
       }
     }
     catch(IndexOutOfBoundsException e) {
@@ -149,7 +150,7 @@ public class checker {
     }
 			for(int i = 0; i < 4; i++) {
 				try {
-					sum = sum + gameState[x-i][y+i];
+					sum = sum + gameState[x+i][y-i];
 				}
 				catch(IndexOutOfBoundsException e) {
 					sum = sum + 0;
