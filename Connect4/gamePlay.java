@@ -61,15 +61,20 @@ public class gamePlay {
 		game.samplePlay();
 		game.printState();
 		System.out.println(game.checkWin()+" ");
+		List<int[]> temp = atom.generateMoves(game);
+		for (int[] m : temp)
+			System.out.println(m[0]+" "+m[1]);
 	}
 
 	void samplePlay() {
-		this.makePlay(-1,0);
+		this.makePlay(-1,3);
 		this.makePlay(1,4);
-		this.makePlay(-1,1);
-		this.makePlay(1,5);
-		this.makePlay(-1,2);
-		this.makePlay(1,0);
+		this.makePlay(-1,4);
+		this.makePlay(1,4);
+		this.makePlay(-1,3);
+		this.makePlay(1,3);
+		this.makePlay(-1,3);
+		this.makePlay(1,3);
 		this.makePlay(-1,3);
 	}
 }

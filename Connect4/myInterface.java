@@ -76,6 +76,7 @@ public class myInterface {
 
         playerMove = (atom.minimax(game,1,7))[2];
         game.makePlay(player2,playerMove);
+        System.out.println("The move played is : "+playerMove);
         game.printState();
         situation = game.checkWin();
         if (situation == 1) {

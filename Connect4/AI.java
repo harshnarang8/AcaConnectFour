@@ -84,7 +84,7 @@ public class AI {
   				break;
   		i--;
 
-  		if (i != 0) {
+  		if (i != -1) {
   			temp.add(new int[] {col});
       }
   		else
