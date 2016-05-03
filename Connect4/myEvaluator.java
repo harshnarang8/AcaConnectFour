@@ -26,25 +26,49 @@ public class myEvaluator {
     }
     return flag;
   }
+  public int tellMeInOrder(gamePlay game) {
+    checker temporary = new checker();
+    List<int[]> toBeChecked = temporary.generatePositions(game.board);
+    int flag = 0;
+    for(int [] m : toBeChecked) {
+      int i = m[0], j = m[1], temp;
+      temp = this.checkLeft(i,j,game.board, 1);
+      temp = this.scale(temp);
+      flag = flag + temp;
+      temp = this.checkRight(i,j,game.board, 1);
+      temp = this.scale(temp);
+      flag = flag + temp;
+      temp = this.checkBelow(i,j,game.board, 1);
+      temp = this.scale(temp);
+      flag = flag + temp;
+      temp = this.checkLeftBelow(i,j,game.board, 1);
+      temp = this.scale(temp);
+      flag = flag + temp;
+      temp = this.checkRightBelow(i,j,game.board, 1);
+      temp = this.scale(temp);
+      flag = flag + temp;
+    }
+    return flag;
+  }
 
   int scale(int val) {
     switch (val) {
       case 4 :
         return 100000;
       case 3 :
-        return 7500;
+        return 750;
       case 2 :
-        return 4000;
+        return 400;
       case 1 :
-        return 1000;
+        return 100;
       case 0 :
         return 0;
       case -1 :
-        return -1000;
+        return -100;
       case -2 :
-        return -4000;
+        return -400;
       case -3 :
-        return -7500;
+        return -750;
       case -4 :
         return -100000;
     }

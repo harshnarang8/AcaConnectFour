@@ -73,11 +73,19 @@ public class myInterface {
           System.out.println("It is a tie.");
           break;
         }
-
-        playerMove = (atom.minimax(game,1,7))[2];
-        game.makePlay(player2,playerMove);
-        System.out.println("The move played is : "+playerMove);
+        int[] instant = new int[3];
+        long startTime = System.currentTimeMillis();
+        // atom.PrakharVariable = 1;
+        instant = (atom.alphaBeta(game,-100000,100000,1,7));
+        playerMove = instant[2];
+        // playerMove = atom.minimax(game,1,7)[2];
+        long endTime = System.currentTimeMillis();
+        System.out.println("The move Chosen is : "+playerMove);
         game.printState();
+        game.makePlay(player2,playerMove);
+        game.printState();
+        System.out.println("Score : " + instant[0]+" The move played is : "+playerMove);
+        System.out.println("Running time : "+(endTime - startTime));
         situation = game.checkWin();
         if (situation == 1) {
           System.out.println("Atom wins.");

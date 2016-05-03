@@ -61,20 +61,44 @@ public class gamePlay {
 		game.samplePlay();
 		game.printState();
 		System.out.println(game.checkWin()+" ");
-		List<int[]> temp = atom.generateMoves(game);
+		System.out.println(atom.heuristicFunc(game)+" ");
+		System.out.println();
+		List<int[]> temp = atom.generateMoves(game,1);
 		for (int[] m : temp)
-			System.out.println(m[0]+" "+m[1]);
+			System.out.println(m[0]+"");
+		atom.rearrangeMoves(game, temp, 1);
+		int[][] a = new int[7][2];
+		game.setValue(a);
+		for (int k = 0; k < 7 ; k++)
+			System.out.println(a[k][0]+" "+a[k][1]);
+		atom.QuickSort(a,0,6);
+		for (int k = 0; k < 7 ; k++)
+			System.out.println(a[k][0]+" "+a[k][1]);
 	}
 
 	void samplePlay() {
-		this.makePlay(-1,3);
-		this.makePlay(1,4);
-		this.makePlay(-1,4);
-		this.makePlay(1,4);
-		this.makePlay(-1,3);
-		this.makePlay(1,3);
-		this.makePlay(-1,3);
-		this.makePlay(1,3);
-		this.makePlay(-1,3);
+		this.makePlay(-1,1);
+		this.makePlay(1,0);
+		this.makePlay(-1,1);
+		this.makePlay(1,0);
+		this.makePlay(-1,1);
+		this.makePlay(1,1);
+	}
+
+	void setValue(int[][] a) {
+		a[0][0] = -1000;
+		a[0][1] = 0;
+		a[1][0] = 500;
+		a[1][1] = 1;
+		a[2][0] = -50;
+		a[2][1] = 2;
+		a[3][0] = -10000;
+		a[3][1] = 3;
+		a[4][0] = 2;
+		a[4][1] = 4;
+		a[5][0] = 700;
+		a[5][1] = 5;
+		a[6][0] = -20000;
+		a[6][1] = 6;
 	}
 }
